@@ -1,0 +1,8 @@
+"./BSP/lcd_2.o"
+"./Drivers/Src/stm32f446xx_gpio_driver.o"
+"./Drivers/Src/stm32f446xx_rcc_driver.o"
+"./Drivers/Src/stm32f446xx_usart_driver.o"
+"./Src/main_lcd.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f446retx.o"

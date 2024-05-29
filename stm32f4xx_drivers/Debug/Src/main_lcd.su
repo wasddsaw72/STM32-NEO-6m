@@ -1,0 +1,6 @@
+../Src/main_lcd.c:31:6:mdelay	24	static
+../Src/main_lcd.c:36:6:number_breakdown	16	static
+../Src/main_lcd.c:44:6:GPIO_init_read	24	static
+../Src/main_lcd.c:58:6:USART3_Init	8	static
+../Src/main_lcd.c:72:6:USART3_GPIOInit	24	static
+../Src/main_lcd.c:94:5:main	72	static
