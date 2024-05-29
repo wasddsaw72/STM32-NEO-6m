@@ -1,5 +1,4 @@
-# GPS-NEO-6M
-GPS module with LCD1602 and STM32 Nucleo f446
+GPS module with LCD1602 and STM32 Nucleo f446.
 
 Для проекта ипользовались следующие комопненты: 
 1) STM32 Nucleof446
@@ -7,4 +6,22 @@ GPS module with LCD1602 and STM32 Nucleo f446
 3) GPS Module NEO-6M
 
 Схема подключения: 
-![image](https://github.com/wasddsaw72/GPS-NEO-6M/assets/165021825/f8294c61-83f5-424b-a11f-26568713b338)
+
+![900px-DFR0009-PIN2](https://github.com/wasddsaw72/GPS-NEO-6M/assets/165021825/c2b818a2-768c-4b30-a737-484e0577de8f)
+
+UART для передачи информации от GPS Module до STM32 Nucleo подключается к PC10(Tx) и PC11(Rx). 
+Используется UART3 для передачи информации. 
+
+Сам модуль можно запрограммировать на определённую скорость UART и т.д., но для моей задачи хавтило стандартных настроек.
+
+Режим работы UART: 
+
+Скорость - 9600 бит\сек.
+
+Кол. стоп битов - 1 бит. 
+
+Бит честности - нет. 
+
+Режим Rx и Tx (хотя можно обойтись только Rx).
+
+# GPS-NEO-6M
